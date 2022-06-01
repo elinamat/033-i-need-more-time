@@ -49,7 +49,6 @@ if __name__ == '__main__':
     bike6 = Bike(6, "Cube 7000", partners[4], 3, "CUBE", "Mountain Bike")
     bike7 = Bike(7, "Ampler Curt Urban", partners[5], 5, "Ampler Curt", "Electric Bike")
     bike8 = Bike(8, "Genesis 150Hb", partners[5], 6, "Genesis", "Mountain Bike")
-    print(bikes[1])
     # TODO:
     """
     Create bike objects using dynamic list variable names!? 
