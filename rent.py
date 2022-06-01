@@ -50,16 +50,17 @@ class Client(Person):
 """
 
 class Bike:
-    def __init__(self, number, modelname, owner, age, manufacturer, type_):
+    def __init__(self, number, modelname, owner, age, manufacturer, type_, status):
         self.modelname = modelname
         self.owner = owner
         self.age = age
         self.manufacturer = manufacturer
         self.type_ = type_
         self.number = number
+        self.status = status
 
     def __repr__(self):
-        return f'Bike{self.number}: {self.modelname},\nType: {self.type_},\nManufacturer: {self.manufacturer},\nAge of bike: {self.age},\nOwner: {self.owner}\n'
+        return f'Bike{self.number}: {self.modelname},\nType: {self.type_},\nManufacturer: {self.manufacturer},\nAge of bike: {self.age},\nOwner: {self.owner},\nStatus: {self.status}\n'
 
 
 
@@ -78,7 +79,7 @@ class RentManagement:
                 usr_desired_age = int(input("Enter the desired bike age: "))
                 print(f"Available bikes based on your critiria: ")
                 for bike in bikes:
-                    if usr_desired_age == bike.age:
+                    if usr_desired_age == bike.age and bike.status == "Available":
                         print(bikes[bike])
             elif option == 2:
                 pass

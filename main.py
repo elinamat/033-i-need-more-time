@@ -41,14 +41,14 @@ if __name__ == '__main__':
     #     #print(mypartners[partner])  # prints the name??!! no
     #     print(mypartners[partner].type)  # prints the type(object)??!! no
 
-    bike1 = Bike(1,"Peugeot 3K", partners[0], 2, "Peugeot", "City Bike")
-    bike2 = Bike(2,"KTM 3000", partners[1], 4, "KTM", "Mountain Bike")
-    bike3 = Bike(3,"VanMoof S3", partners[2], 1, "VanMoof", "Electric Bike")
-    bike4 = Bike(4, "OLE 40000", partners[3], 1, "OLE", "City Bike")
-    bike5 = Bike(5, "CB 2015", partners[2], 7, "Cruzbike", "City Bike")
-    bike6 = Bike(6, "Cube 7000", partners[4], 3, "CUBE", "Mountain Bike")
-    bike7 = Bike(7, "Ampler Curt Urban", partners[5], 5, "Ampler Curt", "Electric Bike")
-    bike8 = Bike(8, "Genesis 150Hb", partners[5], 6, "Genesis", "Mountain Bike")
+    bike1 = Bike(1,"Peugeot 3K", partners[0], 2, "Peugeot", "City Bike", "Available")
+    bike2 = Bike(2,"KTM 3000", partners[1], 4, "KTM", "Mountain Bike", "Available")
+    bike3 = Bike(3,"VanMoof S3", partners[2], 1, "VanMoof", "Electric Bike", "Available")
+    bike4 = Bike(4, "OLE 40000", partners[3], 1, "OLE", "City Bike", "Available")
+    bike5 = Bike(5, "CB 2015", partners[2], 7, "Cruzbike", "City Bike", "Available")
+    bike6 = Bike(6, "Cube 7000", partners[4], 3, "CUBE", "Mountain Bike", "Available")
+    bike7 = Bike(7, "Ampler Curt Urban", partners[5], 5, "Ampler Curt", "Electric Bike", "Available")
+    bike8 = Bike(8, "Genesis 150Hb", partners[5], 6, "Genesis", "Mountain Bike", "Available")
     # TODO:
     """
     Create bike objects using dynamic list variable names!? 
