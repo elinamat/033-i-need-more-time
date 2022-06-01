@@ -11,7 +11,6 @@ class Partner(Person):
         Here I instantiate 'Partner' Objects!
         """
         super().__init__(name)
-        self.name = name
         self.bike = bike
 
 """ THE USER INPUT AS ARGUMENT IN __INIT__ DOESN'T WORK 
